@@ -1,0 +1,11 @@
+Hier wird ein Algorithmus Beispiel entwickelt, zur Lösung des Problems der Berechnung von Diskriminante einer Gleichung zweiter Grad also der Form aX^2 + bX + c. dafür müssen folgenden Schritten eingehalten werden:
+
+1- ruf eine Variable "Delta" auf. zu dieser Variable soll das Ergebnis des Ausdrucks "b*b - 4*a*c" zugewiesen sein.
+ Nach Berechnung sollen viele Aspekten von Delta (Zeichen) betrachtet werden:
+
+  1.a Delta < 0,  dann liegt keinen Lösung für diese Gleichung vor.
+
+  1.b wenn Delta > 0, das bedeutet die Gleichung nimmt zwei unterschiedlichen  Lösungen an und die Wurzel von Delta ist zu finden. die Lösung der Gleichung wird dann durch die Menge M = { X1= -b-(DeltaWurzel)/2*a  und  X2= -b+(DeltaWurzel)/2*a } gegeben.
+
+  1.c wenn Delta = 0 ist dann hat die Gleichung nur eine doppelte Lösung. Die nennen wir X0=-b/2*a;  
+ 
