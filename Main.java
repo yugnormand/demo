@@ -27,8 +27,7 @@ public class Main {
                 return ("Die Menge der Lösung ist  M = { " + X1 + " ; " + X2 + " }");
             }
             else if  (deltaWurzel == 0){ return( "Die Menge der Lösung ist  M = { " +X0+ " }"); }
-            else { return "es liegt keine Lösung für diese Gleichung vor"; }
-        }
+            
 
     public static void main(String[] args){  String a = Diskriminant(1,8,9);
         System.out.println(a);}
