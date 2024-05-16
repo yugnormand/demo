@@ -4,20 +4,20 @@
          {
         // Variable Aussage
        float a,b,c;
-       Diskriminant,X1,X2,X0;
+       float Diskriminant,X1,X2,X0;
        
         //Hier soll man die Koeffiziente der quadratische Gleichung ax^2+bx+c eingeben
-         printf("bitte geben die Koeffiziente a,b,c der Gleichung ax^2+bx+c=0\n:");
+         printf("bitte geben die Koeffiziente a,b,c der Gleichung ax^2+bx+c=0:");
          scanf("%f %f %f",&a,&b,&c);
                 
        // hier soll man das Diskriminant berechnen
-          Dikriminant=b*b - 4 *a*c;      
+          Diskriminant=b*b - 4 *a*c;      
       
        // bedingungen fuer verschiedene Faelle 
        if (Diskriminant > 0){
           //zwei verschidene reelle Wurzeln
-          X1= -b + sqrt(Diskriminant)) / ( 2* a );
-          X2= -b - sqrt(Diskriminant)) / ( 2 * a);
+          X1= (-b + sqrt(Diskriminant)) / ( 2* a );
+          X2= (-b - sqrt(Diskriminant)) / ( 2 * a);
           printf("die Wurzeln sind: %f und %f\n",X1,X2);
           
             }
@@ -25,8 +25,10 @@
        // eine doppelte reelle Wurzel
        X0= -b/(2 * a);}
        
-       else( Diskriminant < o)
-       printf("es gibt keine Loesungen\n");
-           }
+       else( Diskriminant <0){
 
-         Return0
+       printf("es gibt keine Loesungen\n");}
+          return 0;
+            
+             }
+          
