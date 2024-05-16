@@ -1,6 +1,6 @@
-"#include<stdio.h>
-        
-        int main()
+#include<stdio.h>
+      
+      int main()
          {
         // Variable Aussage
        float a,b,c;
@@ -27,3 +27,6 @@
        
        else( Diskriminant < o)
        printf("es gibt keine Loesungen\n");
+           }
+
+         Return0
